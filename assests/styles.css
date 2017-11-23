@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Alcubierre";
+    src: url("/assests/fonts/Alcubierre.otf");
+}
+
+body {
+    font-family: "Alcubierre", serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #6d6963;
+    text-decoration: none;
+    width: 30px;
+}
+
+header{
+    margin: 10px;
+    padding: 20px;
+    display: block;
+    background-color: yellow;
+}
+#home{
+    font-size: large;
+}
+
+nav{
+
+}
+h1 {
+    margin: 10px;
+    padding: 20px;
+    background-color: rebeccapurple;
+}
+
+aside{
+    float: left;
+    margin: 10px;
+    padding: 30px;
+    position: fixed;
+    text-align: center;
+    background-color: red;
+}
+
+#photolucie {
+    width: 130px;
+}
+
+img{
+    width: 40px;
+}
+
+.justify-center{
+    margin: 10px;
+    padding-left: 250px;
+    background-color: #2E4053;
+}
+
+div{
+    margin: 10px;
+    padding: 10px ;
+    background-color: yellow;
+}
+footer,footer>a {
+
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background-color: #2E4053;
+    position: relative;
+    color:whitesmoke;
+    background-color: darkred;
+}
