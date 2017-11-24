@@ -3,22 +3,40 @@
     src: url("/assests/fonts/Alcubierre.otf");
 }
 
-body {
+body,html {
     font-family: "Alcubierre", serif;
     margin: 0;
     padding: 0;
+    height: 100%;
+}
+body{
+    display: table;
+    width: 100%;
+    font-size: 20px;
+    background-color: white;
+    color: #3C3D3D;
 }
 
 a {
-    color: #6d6963;
+    color: #3C3D3D;
     text-decoration: none;
-    width: 30px;
+    padding: 15px;
+}
+a :hover{
+    color: #3C3D3D;
 }
 
 header{
     margin: 10px;
     padding: 20px;
     display: block;
+    text-align: center;
+}
+header a:hover{
+    color: #979A9A;
+}
+#active{
+    color: #979A9A;
 }
 
 h1 {
@@ -29,7 +47,7 @@ h1 {
 aside{
     float: left;
     margin: 10px;
-    padding: 30px;
+    padding: 60px;
     position: fixed;
     text-align: center;
 }
@@ -42,21 +60,61 @@ img{
     width: 40px;
 }
 
-
 .justify-center{
-    margin: 10px;
-    padding-left: 250px;
+    margin: 20px;
+    padding-left: 350px;}
+
+li{
+    list-style-type: none;
 }
 
-div{
-    margin: 10px;
-    padding: 10px ;
+#competences {
+    padding: 10px;
+}
+
+progress[value] {
+    width: 250px;
+    height: 20px;
+}
+::-webkit-progress-value {
+    border-radius: 2px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+progress{
+    margin-left: 20px;
+
+}
+
+#experiences {
+     padding: 10px;
+ }
+
+#formations {
+    padding: 10px;
+}
+
+#interet {
+    padding: 10px;
 }
 
 footer,footer>a {
-
     padding: 10px;
     margin: 10px;
-    position: relative;
-
+    display: inline-block;
+    color: #979A9A;
 }
+footer{
+    display: table-row;
+    height: 100px;
+}
+#pagecontact section{
+    text-align: center;
+    padding: 20px;
+}
+
+section a:hover{
+    color: #979A9A;
+}
+
+
