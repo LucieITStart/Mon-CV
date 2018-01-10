@@ -28,7 +28,7 @@ a :hover{
 
 header{
     margin: 10px;
-    padding: 20px;
+    padding: 30px;
     display: block;
     text-align: center;
 }
@@ -83,7 +83,6 @@ progress[value] {
 
 progress{
     margin-left: 20px;
-
 }
 
 #experiences {
