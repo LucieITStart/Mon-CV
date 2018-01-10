@@ -13,8 +13,13 @@ body{
     display: table;
     width: 100%;
     font-size: 20px;
-    background-color: white;
+    background-color: whitesmoke;
     color: #3C3D3D;
+}
+
+h1 {
+    font-size: 30px;
+    padding: 100px;
 }
 
 a {
@@ -35,7 +40,7 @@ header{
 header a:hover{
     color: #979A9A;
 }
-#active{
+.active{
     color: #979A9A;
 }
 
@@ -68,10 +73,6 @@ li{
     list-style-type: none;
 }
 
-#competences {
-    padding: 10px;
-}
-
 progress[value] {
     width: 250px;
     height: 20px;
@@ -85,16 +86,23 @@ progress{
     margin-left: 20px;
 }
 
-#experiences {
+.experiences {
      padding: 10px;
  }
 
-#formations {
+.formations {
+    padding: 10px;
+}
+.competences {
     padding: 10px;
 }
 
-#interet {
+.interet {
     padding: 10px;
+}
+.pagecontact section{
+    text-align: center;
+    padding: 20px;
 }
 
 footer,footer>a {
@@ -106,10 +114,6 @@ footer,footer>a {
 footer{
     display: table-row;
     height: 100px;
-}
-#pagecontact section{
-    text-align: center;
-    padding: 20px;
 }
 
 section a:hover{
